@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* @import "react-alice-carousel/lib/alice-carousel.css";    */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: gold;
+}
+
+.App{
+  background-color: #14161a;
+  height: 100vh;
+  color: white;
+}
+
+.navbar{
+  /* margin-left: 20px; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 30px;
+  color: transparent;
+  position: static;
+  padding-bottom: 10px;
+  box-shadow: 0 20px 19px 0 rgba(1,1,1,.2);
+
+
+}
+
+.name{
+  color: gold;
+  /* font-family: "Montserrat"; */
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 2.5rem;
+
+}
+.dropbtn {
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+ 
+}
+
+.dropdown {
+  /* border: 1px solid whitesmoke; */
+  position: relative;
+  display: inline-block;
+  border-radius: 6px;
+  margin-right: 10%;
+  /* width: 10%; */
+  /* border: 2px solid whitesmoke; */
+
+}
+.menuitem{
+  border: 2px solid whitesmoke;
+}
+
+
+.bannerdiv{
+  background: url(../src/Images/banner2.jpg);
+  margin-top: 10px;
+
+}
+.bannercontainer{
+  height: 460px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+  justify-content: space-around;
+}
+.tagline h1{
+  text-align: center;
+  font-size: 4rem;
+}
+.tagline span{
+  color: gold;
+}
+.tagline h2{
+  text-align: center;
+  font-size: 2rem;
+  color: gray;
+}
+
+
+.carousel{
+  display: flex;
+  align-items: center;
+  height: 50%;
+}
+.carouselitem{
+  color:aliceblue
+}
+
+.cointablle{
+  margin-left: 6rem;
+  text-align: center;
+  margin-right: 6rem;
+}
+
+.cointablle h2{
+  margin-top: 50px;
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+.cointablle span{
+  color: gold;
+}
+.cointablle input{
+  width: 50%;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  transition:   width .8s ease-in-out;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.cointablle input:focus{
+  width: 70%;
+  outline: none;
+  /* border: none; */
+}
+.cointablle input:hover{
+  width: 70%;
+  outline: none;
+}
+.MuiPagination-ul {
+justify-content: center;
+color: gold;
+}
+.tablerow{
+  background-color: #16171a;
+  cursor: pointer;
+
+}
+.tablerow:hover{
+  background-color: #131111;
+}
+/* .MuiPagination-ul button,div{
+  color: gold;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+} */
+li{
+
+  color: gold;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}.MuiPaginationItem-root{
+  color: gold;
+}
+
+
+.css-xg6lcp-MuiPaginationItem-root li  {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  border-radius: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  min-width: 32px;
+  padding: 0 6px;
+  margin: 0 3px;
+  color: #fff;
+  height: auto;
+  margin-top: 2.5rem;
+  color: gold;
+} 
+
+
+.coincontainer{
+  display: flex;
+}
+.sidebar{
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  border-right: 2px solid gray ;
+}
+.h3coin{
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.desc{
+  width: 100%;
+  text-align: center;
+  padding-top: 5;
+  padding-bottom: 20px;
+  padding: 25px;
+
+}
+.marketdetails h2{
+font-size: 2rem;
+margin-bottom: 10px;
+}
+.desc{
+  text-align: justify;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+.chartinfo{
+  width: 76%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 40;
+  margin-left: 10px;
+
+}
+.selectbutton {
+  border: 1px solid gold;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left:20px ;
+  padding-right: 20px;
+  cursor: pointer;
+  transform: 2s ease-in;
+  
+  
+}
+.selectbutton:hover{
+  background-color: gold;
+  color: black;
+  transform: none;
+}
+.selectbutton:focus{
+  background-color: gold;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 900px) {
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Noto Sans JP', sans-serif;
+      /* overflow-x: hidden;  */
+  }
+ 
+  body {
+      width: 100%;
+      overflow-x: hidden; 
+  }
+
+  .name{
+    font-size: 35px;
+  }
+
+  .tagline h1{
+
+    font-size: 45px;
+  
+  }
+
+  .imgbanner
+  {
+    height: 60px;
+    margin-top: 55px;
+  }
+
+  .coincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebar{
+    width: 100% ;
+  }
+  .marketdetails{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cointablle{
+    width: 100%;
+    margin-left: 0;
+  }
+  .tbhead{
+    font-size: 1rem;
+  }
+  .marketdetails h2{
+    font-size: 1.5rem;
+    margin-right: 30px;
+    margin-top: 20px;
+
+    }
+    .desc{
+      font-size: 1.7rem;
+    }
+    .chartinfo{
+     width: 100%;
+     /* margin-top: 10px; */
+     /* padding-top: 0; */
+     padding: 15px;
+     height: 50vh;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 600px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    /* overflow-x: hidden;  */
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+.tagline h1{
+  font-size: 2.6rem;
+}
+.tagline h2{
+  font-size: 1.5rem;
+}
+.cointablle h2{
+  font-size: 2rem;
+}
+.cointablle{
+  width: 100%;
+  margin-left: 0;
+}
+.tbhead{
+  font-size: .51rem;
+}
+.marketdetails{
+  display: flex;
+  flex-direction: column;
+}
+.marketdetails h2{
+  font-size: 1.2rem;
+  margin-right: 30px;
+  margin-top: 20px;
+
+  }
+  .desc{
+    font-size: 1.3rem;
+  }
+
+  .cointablle{
+    width: 100%;
+  }
+  .table{
+    width: 50%;
+  }
+  .chartinfo{
+    width: 100%;
+    /* margin-top: 10px; */
+    /* padding-top: 0; */
+    padding: 15px;
+    height: 30vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+  color: whitesmoke;
+}
+
+#footer .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 50px;
+  color: whitesmoke;
+
+}
+
+#footer .logoo {
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+  color: gold;
+}
+
+#footer .icon {
+  margin-top: 5px;
+  margin-right: 5px;
+  color: whitesmoke;
+
+}
+
+#footer .icon i {
+ color: #088178;
+  margin-right: 5px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+#footer h4 {
+
+  margin-top: 30px;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  color: whitesmoke;
+}
+
+#footer p {
+
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: whitesmoke;
+}
+
+#footer a {
+
+  font-size: 1rem;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+  font-weight: 100;
+  color: whitesmoke;
+}
+
+#footer .install .row img{
+ border-radius: 8px;
+ border: 2px solid ;
+ border-color: #088178;
+}
+
+#footer .install  img{
+
+ margin: 15px;
+}
+
+#footer .follow i:hover,
+#footer a:hover
+{
+ color: whitesmoke;
+text-shadow: 10px 20px 19px 0 rgba(255,255,255);
+ cursor: pointer;
+}
+#footer  .install h4{
+ margin-top: 80px;
+}
+
+#footer .copyright{
+ width: 100%;
+ text-align: center;
+ margin-top: 20px;
+ /* background-color:black; */
+ /* color: whitesmoke;  */
+}
